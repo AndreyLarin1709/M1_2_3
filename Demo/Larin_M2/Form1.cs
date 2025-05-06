@@ -26,6 +26,12 @@ namespace Larin_M2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Partners.Clear();
+            PartnerProduct.Clear();
+            Products.Clear();
+            MaterialType.Clear();
+            ProductType.Clear();
+            flowLayoutPanel1.Controls.Clear();
             LoadData();
             PopulatePartnerList();
         }

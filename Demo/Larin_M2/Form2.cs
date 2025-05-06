@@ -152,8 +152,6 @@ namespace Larin_M2
             this.Hide();
             var form1 = new Form1();
             form1.Show();
-            form1.LoadData();
-            form1.PopulatePartnerList();
         }
     }
 }
